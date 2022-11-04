@@ -1,4 +1,4 @@
-const video = {
+const videoData = {
   id: 1,
   title: "React Today and Tomorrow and 90% Cleaner React With Hooks",
   embedUrl: "https://www.youtube.com/embed/dpw9EHDh2bM",
@@ -17,7 +17,17 @@ const video = {
       user: "gaeron",
       comment: "What a great tutorial!",
     },
+    {
+      id: 3,
+      user: "Alex",
+      comment: "Yo!",
+    },
+    {
+      id: 4,
+      user: "Jake",
+      comment: "Sup!",
+    },
   ],
 };
 
-export default video;
+export default videoData;
